@@ -1,0 +1,7 @@
+1) Create database table
+2) create table adoptees (id int primary key auto_increment, adopteeName1 varchar(20),adopteeName2 varchar(20), email varchar(20))
+3) create table donationreq(id int primary key auto_increment, petName varchar(20), petSpecies varchar(20),pickUpAddress varchar(30), pickUpTime varchar(20))
+4) create table donations(id int primary key auto_increment, fullName varchar(20), email varchar(20),amount varchar(30), paymentMethod varchar(20))
+5) create table logindata(id int primary key auto_increment, userName varchar(20), userEmail varchar(20),userPassword varchar(30))
+6) create table messages(id int primary key auto_increment, email varchar(20), message varchar(20));
+

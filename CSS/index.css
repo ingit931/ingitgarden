@@ -1,0 +1,219 @@
+*{
+    font-family: sans-serif;
+}
+.closeLogin
+{
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 4%;
+    background: red;
+    width: 5%;
+    text-align: center;
+    color: white;
+    font-family: 30px;
+    /* height: 20px; */
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.TopNavBar .logo img
+{
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+nav{
+    height: 30%;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav .TopNav
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav .ButtonNav
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav .ButtonNav a{
+    padding: 10px;
+}
+
+.Content
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.Content .ContentSeprate
+{
+    border: 3px solid black;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.Content .TopContent h1
+{
+    color: red;
+}
+.Content button
+{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: purple;
+    color: white;
+    transition: .6s;
+}
+.Content button:hover{
+    background: black;
+}
+footer
+{
+    /* position: absolute; */
+    bottom: 0;
+    height: 20vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+
+}
+.MidContent
+{
+    width: 70%;
+}
+.MidContent .MidTop
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.MidContent .MidTop p{
+    margin: 20px;
+}
+.MidContent .MidCenter
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.MidCenter button
+{
+    margin-left: 30px;
+    background: grey;
+    color: black;
+    border-radius: 30px 0px 30px 0px;
+    color: white;
+
+}
+.TopBottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+}
+.TopBottom p{
+    text-align: center;
+    margin-top: 20px;
+}
+img
+{
+    border-radius: 29px;
+}
+.ContactContent h1
+{
+    text-align: center;
+}
+.ContactTopContent
+{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 6vh;
+}
+.login-container, .pet-form
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    flex-direction: column;
+}
+ 
+.ContactMidContent
+{
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-direction: column;
+    align-items: center; */
+    display: flex;
+    justify-content: space-around;
+}
+.LeftContact
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+ .LeftContact form
+{
+    display: flex;
+    flex-direction: column;
+}
+.LeftContact form input
+{
+    margin-top: 20px;
+    height: 40px;
+}
+.LeftContact form button
+{
+    margin-top: 20px;
+    height: 30px;
+}
+.SeprateContact
+{
+    border: 2px solid black;
+}
+.ContentContact
+{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.ContentContact img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* .ContactContent . */
